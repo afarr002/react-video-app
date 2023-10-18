@@ -1,0 +1,39 @@
+whiteboard ideas
+
+(will update as project develops)
+
+-- install dependencies
+    -- packages you think you'll need for this project
+
+-- set up supabase (using instead of firebase to familiarize)
+    -- set up authentication (google oauth? - supabase auth)
+    -- auth navbar
+    -- create profile based on auth sign in status
+    -- auth sign oauth
+
+-- upload videos
+    -- uploading videos
+    -- add video details
+
+-- generic pages
+    -- home page
+    -- trending video page
+    -- delete video page
+
+-- video pages
+    -- video watch page
+    -- different video views?
+
+-- subscriptions
+    -- subscribe user
+    -- view subscription page
+
+-- user data
+    -- users liked videos
+    -- users watched video history
+
+-- search
+    -- search results page
+
+-- user profile
+    -- edit profile
