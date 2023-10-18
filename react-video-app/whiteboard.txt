@@ -4,6 +4,7 @@ whiteboard ideas
 
 -- install dependencies
     -- packages you think you'll need for this project
+        -- add vite congif file for server
 
 -- set up supabase (using instead of firebase to familiarize)
     -- set up authentication (google oauth? - supabase auth)
