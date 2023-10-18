@@ -6,6 +6,11 @@ whiteboard ideas
     -- packages you think you'll need for this project
         -- add vite congif file for server (vite will be the dev server)
 
+-- create basic files and structure for app
+    -- create main jsx file
+    -- create app jsx file
+    -- create app css filescreate index css file
+
 -- set up supabase (using instead of firebase to familiarize)
     -- set up authentication (google oauth? - supabase auth)
     -- auth navbar
