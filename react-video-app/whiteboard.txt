@@ -10,6 +10,11 @@ whiteboard ideas
     -- create main jsx file
     -- create app jsx file
     -- create app css filescreate index css file
+    -- create dark theme in theme js file
+    -- create GlobalStyle with import from styled-components
+    -- create navbar component and style
+    -- create sidebar component and style
+    -- create mobilenavbar component and style
 
 -- set up supabase (using instead of firebase to familiarize)
     -- set up authentication (google oauth? - supabase auth)
