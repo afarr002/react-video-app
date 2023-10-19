@@ -3,11 +3,14 @@ import { HamburgerIcon, LogoIcon } from "./Icons";
 
 import Wrapper from "../styles/Navbar";
 
-function Navbar() {
+function Navbar({ handleToggleSidebar }) {
   return (
     <Wrapper>
       <div className="logo flex-row">
-        <HamburgerIcon className="toggle-navhandler" />
+        <HamburgerIcon
+          onClick={handleToggleSidebar}
+          className="toggle-navhandler"
+        />
         <span>
           <Link to="/">
             <LogoIcon

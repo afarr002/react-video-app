@@ -18,13 +18,25 @@ import LikedVideos from "./pages/LikedVideos";
 import NotFound from "./pages/NotFound";
 
 import Container from "./styles/Container";
-import Home from "./pages/Home";
+
+import useLocationChange from "./hooks/useLocationChange";
 
 function App() {
+  const [isSidebarOpen, setSidebarOpen] = React.useState(false);
+  useLocationChange(handleCloseSidebar);
+
+  function handleCloseSidebar() {
+    setSidebarOpen(false);
+  }
+
+  function handleToggleSidebar() {
+    setSidebarOpen(!isSidebarOpen);
+  }
+
   return (
     <>
-      <Navbar />
-      <Sidebar />
+      <Navbar handleToggleSidebar={handleToggleSidebar} />
+      <Sidebar isSidebarOpen={isSidebarOpen} />
       <MobileNavbar />
       <Container>
         <Routes>

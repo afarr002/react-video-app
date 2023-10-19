@@ -10,9 +10,9 @@ import {
   VidIcon,
 } from "./Icons";
 
-function Sidebar() {
+function Sidebar({ isSidebarOpen }) {
   return (
-    <Wrapper open={true}>
+    <Wrapper open={isSidebarOpen}>
       <NavLink to="/" activeClassName="active">
         <div className="icon">
           <HomeIcon />
