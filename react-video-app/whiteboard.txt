@@ -16,6 +16,25 @@ whiteboard ideas
     -- create sidebar component and style
     -- create mobilenavbar component and style
 
+    -- create routes for different pages
+        -- create home page
+            -- create home stylesheet
+            -- create videogrid stylesheet
+        -- create channel page
+            -- create channel stylesheet
+        -- create history page
+        -- create library page
+        -- create likedvideos page
+        -- create myvideos page
+        -- create notfound page
+            -- create notfound stylesheet
+        -- create searchresults page
+        -- create subscriptions page
+        -- create trending page
+            -- create trending stylesheet
+        -- create watchvideo page
+            -- create watchvideo stylesheet
+
 -- set up supabase (using instead of firebase to familiarize)
     -- set up authentication (google oauth? - supabase auth)
     -- auth navbar
